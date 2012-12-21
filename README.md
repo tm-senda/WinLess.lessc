@@ -21,6 +21,8 @@ The most noteworthy argument is '--yui-compress', which minifies the outputted c
 	CALL lessc "$(ProjectDir)Styles\Less\main.less" "$(ProjectDir)Styles\Css\main.css" --yui-compress
 	
 ## Updating less.js
+If you want you can update the included LESS package yourself, by using the Node Package Manager. To do this follow the following steps:
+
 1.	Install Node with Node Package Manager: http://nodejs.org/download/
 2.	Open Command Prompt and cd to the 'packages\WinLess.lessc' folder
 3.	Execute the following command:
