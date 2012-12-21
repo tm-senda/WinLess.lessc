@@ -4,9 +4,10 @@ Contains Node package of less.js.
 
 ## Usage
 WinLess.lessc comes with 2 commands: lessc and lesscFolder.
-Syntax:
-  lessc "<lessFile>" "<cssFile>" <otherArguments>
-	lesscFolder "<lessFolder>" "<cssFolder>" "otherArguments"
+
+1.	`lessc "<lessFile>" "<cssFile>" <otherArguments>`
+2.	`lesscFolder "<lessFolder>" "<cssFolder>" "otherArguments"`
+
 Note: the aditional lessc arguments passed to lesscFolder need to be quoted.
 The most noteworthy argument is '--yui-compress', which minifies the outputted css.
 
@@ -20,9 +21,9 @@ The most noteworthy argument is '--yui-compress', which minifies the outputted c
 	CALL lessc "$(ProjectDir)Styles\Less\main.less" "$(ProjectDir)Styles\Css\main.css" --yui-compress
 	
 ## Updating less.js
-1) Install Node with Node Package Manager: http://nodejs.org/download/
-2) Open Command Prompt and cd to the 'packages\WinLess.lessc' folder
-3) Execute the following command:
+1.	Install Node with Node Package Manager: http://nodejs.org/download/
+2.	Open Command Prompt and cd to the 'packages\WinLess.lessc' folder
+3.	Execute the following command:
 	npm update less
 		
 ## Credits
