@@ -23,10 +23,9 @@ The most noteworthy argument is '--yui-compress', which minifies the outputted c
 ## Updating less.js
 If you want you can update the included LESS package yourself, by using the Node Package Manager. To do this follow the following steps:
 
-1.	Install Node with Node Package Manager: http://nodejs.org/download/
-2.	Open Command Prompt and cd to the 'packages\WinLess.lessc' folder
-3.	Execute the following command:
-	npm update less
+1.	Install [Node with Node Package Manager](http://nodejs.org/download/).
+2.	Open Command Prompt and `cd` to the `packages\WinLess.lessc` folder.
+3.	Execute the following command,	`npm update less`.
 		
 ## Credits
 1.	[less.js]( http://lesscss.org/) - The official LESS compiler, by Alexis Sellier (author of the LESS language).
