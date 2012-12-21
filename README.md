@@ -26,16 +26,6 @@ The most noteworthy argument is '--yui-compress', which minifies the outputted c
 	npm update less
 		
 ## Credits
-less.js:
-	Official LESS compiler
-	Author: Alexis Sellier
-	Website: http://lesscss.org/
-	
-node.js:
-	Node.js
-	Website: http://nodejs.org/
-
-lesscFolder.cmd
-	Simple script which allows you to compile all LESS files in a folder with one command.
-	Author: Mark Lagendijk
-	Website: http://winless.org
+1.	[less.js]( http://lesscss.org/) - The official LESS compiler, by Alexis Sellier (author of the LESS language).
+2.	[Node.js](http://nodejs.org/).
+3.	[WinLess.lessc](http://winless.org/lessc) - This package.
