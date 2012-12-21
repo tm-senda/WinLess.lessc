@@ -3,13 +3,13 @@ Package for easy compiling of LESS files in your build events.
 Contains Node package of less.js.
 
 ## Usage
-WinLess.lessc comes with 2 commands: lessc and lesscFolder.
+WinLess.lessc comes with 2 commands: `lessc` and `lesscFolder`.
 
 1.	`lessc "<lessFile>" "<cssFile>" <otherArguments>`
 2.	`lesscFolder "<lessFolder>" "<cssFolder>" "otherArguments"`
 
 Note: the aditional lessc arguments passed to lesscFolder need to be quoted.
-The most noteworthy argument is '--yui-compress', which minifies the outputted css.
+The most noteworthy argument is `--yui-compress`, which minifies the outputted css.
 
 ## Examples
 ### Compiling a folder
